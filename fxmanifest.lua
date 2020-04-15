@@ -22,18 +22,9 @@ client_scripts {
 }
 
 server_scripts {
-	'@mysql-async/lib/MySQL.lua',
-	'serveur/serveur_garage.lua',
+	'server/*.lua'
 }
 
 client_scripts {
-    'client/cl_init.lua',
-    'client/cl_fourriere.lua',
-	'client/client_garage.lua',
-	'client/cl_damage.lua',
-    'client/cl_pc.lua',
-}
-
-client_scripts {
-    "AC-Sync.lua",
+    'client/*.lua'
 }
